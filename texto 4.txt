@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Recs</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h2 { color: #E50914; }
+        .ad-container { margin: 20px 0; text-align: center; }
+        .movie-list { margin-top: 20px; }
+        .movie-item { margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+
+<h2>Bem-vindo ao Netflix Recs!</h2>
+<p>Recomendações de filmes e séries diariamente.</p>
+
+<!-- ------------------------------- -->
+<!-- HIGH PERFORMANCE FORMAT (funciona agora) -->
+<!-- ------------------------------- -->
+<div class="ad-container">
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'b0d27d1f097c5e0c969733ff14696bd3',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+<script src="//www.highperformanceformat.com/b0d27d1f097c5e0c969733ff14696bd3/invoke.js"></script>
+</div>
+
+<!-- ------------------------------- -->
+<!-- ADSTERRA SOCIAL BAR (TROCAR PELO SCRIPT REAL DA SUA CONTA) -->
+<!-- ------------------------------- -->
+<div class="ad-container">
+<script>
+    (function(){
+        var s = document.createElement('script');
+        s.src = "https://example.com/YOUR_ADSTERRA_SOCIALBAR.js"; <!-- TROCA AQUI PELO SEU SCRIPT -->
+        s.async = true;
+        document.body.appendChild(s);
+    })();
+</script>
+</div>
+
+<!-- ------------------------------- -->
+<!-- ADSTERRA BANNER 300x250 (TROCAR PELO SCRIPT REAL DA SUA CONTA) -->
+<!-- ------------------------------- -->
+<div class="ad-container">
+<script>
+    (function(){
+        var s = document.createElement('script');
+        s.src = "https://example.com/YOUR_ADSTERRA_BANNER.js"; <!-- TROCA AQUI PELO SEU SCRIPT -->
+        s.async = true;
+        document.body.appendChild(s);
+    })();
+</script>
+</div>
+
+<!-- ------------------------------- -->
+<!-- LISTA DE FILMES EXEMPLO -->
+<!-- ------------------------------- -->
+<div class="movie-list">
+    <div class="movie-item"><strong>Stranger Things</strong> – Ficção científica e suspense.</div>
+    <div class="movie-item"><strong>Bird Box</strong> – Thriller psicológico.</div>
+    <div class="movie-item"><strong>The Witcher</strong> – Fantasia épica cheia de ação.</div>
+</div>
+
+</body>
+</html>
